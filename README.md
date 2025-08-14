@@ -36,7 +36,3 @@ For Employees:
 - Tools: XAMPP, phpMyAdmin  
 
 ---
-
-
-   ```bash
-   git clone https://github.com/your-username/Online-Examination-System.git
