@@ -1,0 +1,273 @@
+.header-section {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  height: 10%;
+  box-shadow: 0px 4px 37px 0px #0000000f;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.header-right-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.logout-btn {
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  font-family: "poppins";
+  color: white;
+  background-color: blue;
+}
+
+.header-title {
+  border-right: 1px solid black;
+  margin-right: 20px;
+  font-family: "poppins";
+}
+
+.container {
+  height: 90%;
+  width: 85%;
+}
+
+.content-section {
+  background-color: #f4efef;
+  height: 85%;
+  overflow-y: scroll;
+}
+
+.footer-section {
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.logo-section {
+  margin-bottom: 30px;
+}
+
+.menu {
+  width: 15%;
+  height: 100%;
+  border-right: 1px solid rgba(128, 128, 128, 0.338);
+  box-shadow: 0px 4px 37px 0px #0000000f;
+}
+
+.menu-list {
+  padding: 20px;
+  font-family: "poppins";
+  line-height: 19.36px;
+  cursor: pointer;
+}
+
+.menu-list-inactive {
+  padding: 20px;
+  font-family: "poppins";
+  line-height: 19.36px;
+  cursor: pointer;
+  color: rgb(58, 58, 58);
+}
+
+.menu-list-inactive:hover {
+  color: gray;
+}
+
+.d-flex {
+  display: flex;
+  height: 100%;
+}
+
+.d-flex1 {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333%;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+.pe-3 {
+  padding-right: 1rem !important;
+}
+
+.pb-3 {
+  padding-bottom: 1rem !important;
+}
+
+.input-style {
+  width: 100%;
+  height: 50px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  border: 1px solid #838383;
+  padding: 10px 10px 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-style:focus {
+  outline: none;
+}
+
+/* It support styles */
+
+.form-section {
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.form-title {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 46px;
+  text-align: left;
+}
+
+/* Employee Previous Exam */
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+.table-header {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 46px;
+  text-align: left;
+}
+
+.select-a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.login-submit {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 100px;
+  opacity: 0px;
+  font-family: "Poppins";
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+  background: #164863;
+  border: none;
+  cursor: pointer;
+}
+
+.login-submit-delete {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 100px;
+  opacity: 0px;
+  font-family: "Poppins";
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+  background: #8e1c1c;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}

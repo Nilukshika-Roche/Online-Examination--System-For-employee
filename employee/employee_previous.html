@@ -1,0 +1,103 @@
+<DOCTYPE.html>
+    <html>
+      <head>
+        <title>Employee</title>
+        <link rel="stylesheet" href="../styles/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../images/icons/css/font-awesome.min.css" />
+      </head>
+      <body>
+        <div class="d-flex">
+          <div class="menu">
+            <div class="logo-section">
+              <img width="80%" src="../images/images.png" />
+            </div>
+            <div class="menu-list">
+              <i class="fa fa-user-o pe-3" aria-hidden="true"></i> Employee Details
+            </div>
+            <div class="menu-list-inactive">
+              <i class="fa fa-user pe-3" aria-hidden="true"></i> Previous Exam
+            </div>
+            <div class="menu-list-inactive">
+              <i class="fa fa-user-o pe-3" aria-hidden="true"></i> Attempt New Exam
+            </div>
+            <div class="menu-list-inactive">
+              <i class="fa fa-user-o pe-3" aria-hidden="true"></i> Update Information.
+            </div>
+          </div>
+          <div class="container">
+            <div class="header-section">
+              <div class="d-flex align-items-center">
+                <div class="p-3 header-title">Employee</div>
+                <div class="header-right-items">
+                  <img
+                    src="../images/img_avatar.png"
+                    alt="Avatar"
+                    class="avatar"
+                  />
+                  <button class="logout-btn">logout</button>
+                </div>
+              </div>
+            </div>
+  
+            <div class="content-section">
+              <div class="d-flex p-3">
+                <div
+                  class="col-6 d-flex1 justify-content-center align-items-center"
+                >
+                  <img src="../images/emp previous.png" width="90%" height="auto" />
+                </div>
+  
+                <div class="col-6">
+                    <form method="post" action="../php/employee.php">
+                        <div class="form-section">
+                          <div class="form-title">Previous Exam</div>
+                    
+                </div> 
+                <button type="button" class="collapsible">Exam 1</button>
+                    <div class="content">
+                    <p>Marks - Grade A - Excellent</p>
+                
+                    </div>
+                
+                    <button type="button" class="collapsible">Exam 2</button>
+                    <div class="content">
+                    <p>Marks - Grade B - Good</p>
+                    </div>
+                    
+                    <button type="button" class="collapsible">Exam 3</button>
+                    <div class="content">
+                    <p>Marks - Grade C - Fair</p>
+                    </div>
+            <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
+              
+         </div>       
+            </div>
+          </div>
+          <div class="footer-section">@copyright 2024</div>
+        </div>
+        </div>
+      </body>
+    </html>
+  </DOCTYPE.html>
+  
